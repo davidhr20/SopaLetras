@@ -5,9 +5,26 @@
  ** Descripción: sopa de letras de 15x15
  **/
 
+import java.util.Scanner;
+
 public class SopaLetras {
 
-	private char [] [] matriz = {{'a','b','c','d','e'} , {'f','g','h','i','j'}};
+	final static int max = 10;
+	
+	private static String [] getPalabras() {
+		
+		String [] palabras = new String[max];
+		Scanner t = new Scanner(System.in);
+		int i = 0, j = 0;
+		boolean ok = true;
+		
+		System.out.println("Sopa de letras");
+		System.out.println("--------------");
+		System.out.println();
+		
+		for(int i = 0; i >)
+		
+	}
 	
 	public static void main(String[] args) {
 		
